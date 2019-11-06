@@ -11,13 +11,19 @@
 <body>
     <h1>Find a GitHub User's Repository List</h1>
     <form>
-        <label for="user-handle">GitHub User Handle:</label>
+        <label for="user-handle">Enter GitHub User Handle:</label>
         <input type="text" id="user-handle">
         <input type="submit">
     </form>
 
+    <p class="error-message"></p>
+
     <section class="hidden results">
         
+        <ul class="repos">
+
+        </ul>
+
     </section>
 
     <script
