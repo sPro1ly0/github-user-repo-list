@@ -22,7 +22,7 @@ function getUrl() {
         })
         .then(responseJson => displayResults(responseJson))
         .catch(error => {
-            $(".error-message").text(`User ${userInput} Is ${error.message}.`)
+            $(".error-message").text(`User ${userInput} ${error.message}.`)
         });
 };
 
